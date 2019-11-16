@@ -5,7 +5,7 @@ services: docker
 
 env:
   global:
-    - ROLE_NAME: ansible-isp-speedtest
+    - ROLE_NAME: ansible-linux-nginx
   matrix:
     - MOLECULE_DISTRO: centos6
     - MOLECULE_DISTRO: centos7
